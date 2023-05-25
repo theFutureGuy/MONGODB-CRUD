@@ -14,9 +14,9 @@
     {{#if edit_id}}
      <h3>Edit</h3>
     <form method="post" action="/update_book/{{edit_id}}">
-        <label for="">Title</label>
+        <label for="">Car name</label>
         <input type="text" name="title" value="{{edit_book.title}}">
-        <label for="">Author</label>
+        <label for="">Model</label>
         <input type="text" name="author" value="{{edit_book.author}}">
         <input type="submit" >
     </form><br><br>
@@ -24,9 +24,9 @@
 
     <h3>Create</h3>
     <form method="post" action="/store_book">
-        <label for="">Title</label>
+        <label for="">Car name</label>
         <input type="text" name="title">
-        <label for="">Author</label>
+        <label for="">Model</label>
         <input type="text" name="author">
         <input type="submit" >
     </form><br><br>
